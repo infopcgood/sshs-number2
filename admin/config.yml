@@ -17,8 +17,6 @@ collections:
       - { label: "대표 이미지", name: "thumbnail", widget: "image" }
       - { label: "평점 (1-5)", name: "rating", widget: "number" }
       - { label: "내용", name: "body", widget: "markdown" }
-
-collections:
   - name: "info" # Used in routes, e.g., /admin/collections/blog
     label: "공약 안내" # Used in the UI
     folder: "_posts/info" # The path to the folder where the documents are stored

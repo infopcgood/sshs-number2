@@ -33,8 +33,10 @@ collections:
     permalink: /:slug
   blog:
     output: true
+    permalink: /_blog/:slug
   info:
     output: true
+    permalink: /_info/:slug
   posts:
     output: true
 

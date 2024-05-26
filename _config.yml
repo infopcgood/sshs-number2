@@ -31,6 +31,13 @@ collections:
   notes:
     output: true
     permalink: /:slug
+  blog:
+    output: true
+    permalink: /:categories/:title/
+  info:
+    output: true
+    permalink: /:categories/:title/
+
 
 defaults:
   - scope:

@@ -14,7 +14,6 @@ collections:
       - { label: "레이아웃", name: "layout", widget: "hidden", default: "blog" }
       - { label: "제목", name: "title", widget: "string" }
       - { label: "만든 날짜", name: "date", widget: "datetime" }
-      - { label: "대표 이미지", name: "thumbnail", widget: "image" }
       - { label: "내용", name: "body", widget: "markdown" }
   - name: "info" # Used in routes, e.g., /admin/collections/blog
     label: "공약 안내" # Used in the UI
@@ -25,5 +24,4 @@ collections:
       - { label: "레이아웃", name: "layout", widget: "hidden", default: "blog" }
       - { label: "제목", name: "title", widget: "string" }
       - { label: "만든 날짜", name: "date", widget: "datetime" }
-      - { label: "대표 이미지", name: "thumbnail", widget: "image" }
       - { label: "내용", name: "body", widget: "markdown" }

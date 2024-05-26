@@ -20,7 +20,7 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 <ul>
   {% for post in site.info %}
     <li>
-      [[{{post.title}}]]
+      [[{{post.url}}]]
     </li>
   {% endfor %}
 </ul>
@@ -30,7 +30,7 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 <ul>
   {% for post in site.blog %}
     <li>
-      [[{{post.title}}]]
+      [[{{post.url}}]]
     </li>
   {% endfor %}
 </ul>

@@ -17,17 +17,11 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 
 <strong>글 목록</strong>
 
-<h3>공약 소개</h3>
 <ul>
-  {% for post in site.info %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</ul>
-
-<h3>선거 블로그</h3>
-<ul>
-  {% for post in site.blog %}
-    <li><a href="{{ post.url }}">{{ post.title }}</a></li>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
   {% endfor %}
 </ul>
 

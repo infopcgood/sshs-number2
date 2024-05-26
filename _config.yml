@@ -35,6 +35,8 @@ collections:
     output: true
   info:
     output: true
+  posts:
+    output: true
 
 
 defaults:

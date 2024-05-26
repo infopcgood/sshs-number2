@@ -1,0 +1,32 @@
+backend:
+  name: git-gateway
+  branch: main # Branch to update (optional; defaults to master)
+media_folder: "assets/uploaded"
+
+collections:
+  - name: "blog" # Used in routes, e.g., /admin/collections/blog
+    label: "블로그" # Used in the UI
+    folder: "_posts/blog" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "레이아웃", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "제목", name: "title", widget: "string" }
+      - { label: "만든 날짜", name: "date", widget: "datetime" }
+      - { label: "대표 이미지", name: "thumbnail", widget: "image" }
+      - { label: "평점 (1-5)", name: "rating", widget: "number" }
+      - { label: "내용", name: "body", widget: "markdown" }
+
+collections:
+  - name: "info" # Used in routes, e.g., /admin/collections/blog
+    label: "공약 안내" # Used in the UI
+    folder: "_posts/info" # The path to the folder where the documents are stored
+    create: true # Allow users to create new documents in this collection
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}" # Filename template, e.g., YYYY-MM-DD-title.md
+    fields: # The fields for each document, usually in front matter
+      - { label: "레이아웃", name: "layout", widget: "hidden", default: "blog" }
+      - { label: "제목", name: "title", widget: "string" }
+      - { label: "만든 날짜", name: "date", widget: "datetime" }
+      - { label: "대표 이미지", name: "thumbnail", widget: "image" }
+      - { label: "평점 (1-5)", name: "rating", widget: "number" }
+      - { label: "내용", name: "body", widget: "markdown" }

@@ -15,15 +15,24 @@ This digital garden template is free, open-source, and [available on GitHub here
 
 The easiest way to get started is to read this [step-by-step guide explaining how to set this up from scratch](https://maximevaillancourt.com/blog/setting-up-your-own-digital-garden-with-jekyll).
 
-<strong>글 목록</strong>
+<h3>공약 소개</h3>
 
 <ul>
-  {% for post in site.posts %}
+  {% for post in site.info %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
+
+<ul>
+  {% for post in site.blog %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a>
+    </li>
+  {% endfor %}
+</ul>
+
 
 <style>
   .wrapper {

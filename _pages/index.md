@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 
-# 2️⃣ 기호 2번 후보자 사이트
+# 2️⃣ 기호 2번 공약 안내
 
 <p style="padding: 3em 1em; background: #f5f7ff; border-radius: 4px;">
   Take a look at <span style="font-weight: bold">[[Your first note]]</span> to get started on your exploration.
@@ -20,10 +20,12 @@ The easiest way to get started is to read this [step-by-step guide explaining ho
 <ul>
   {% for post in site.info %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      [[post]]{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
+
+<h3>선거 블로그</h3>
 
 <ul>
   {% for post in site.blog %}

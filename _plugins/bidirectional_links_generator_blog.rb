@@ -1,5 +1,5 @@
 # frozen_string_literal: true
-class BidirectionalLinksGenerator < Jekyll::Generator
+class BidirectionalLinksGeneratorBlog < Jekyll::Generator
   def generate(site)
     graph_nodes = []
     graph_edges = []

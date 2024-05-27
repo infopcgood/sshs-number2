@@ -18,7 +18,7 @@ permalink: /
 <ul>
   {% for post in site.info %}
     <li>
-      <a href="{{ post.url }}">{{ post.title }}</a>
+      [[{{ post.title }}]]
     </li>
   {% endfor %}
 </ul>

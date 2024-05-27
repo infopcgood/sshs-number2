@@ -98,11 +98,6 @@ class BidirectionalLinksGenerator < Jekyll::Generator
         }
       end
     end
-
-    File.write('_includes/infos_graph.json', JSON.dump({
-      edges: graph_edges,
-      nodes: graph_nodes,
-    }))
   end
 
   def info_id_from_info(info)

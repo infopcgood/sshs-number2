@@ -20,7 +20,7 @@ permalink: /
 <ul>
   {% for post in site.info %}
     <li>
-      [[{{ post.title }}]]
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -30,7 +30,7 @@ permalink: /
 <ul>
   {% for post in site.blog | sort: 'last_modified_at' | reverse %}
     <li>
-      [[{{ post.title }}]]
+      <a href="{{ post.url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

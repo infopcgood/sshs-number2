@@ -5,7 +5,7 @@ id: home
 permalink: /
 ---
 
-<img src="assets/uploaded/giho2.png" alt="후보 소개 현수막">
+<img src="assets/uploaded/giho2.png" alt="후보 소개 현수막" width="100%">
 
 기호 2번, <strong>심재민 정태훈 김주영</strong> 후보의 공약 소개 및 선거 블로그입니다. 다양한 공약이 매일 업데이트되고, 홍보 자료도 올라오니까 꼭 참고해 주세요!
 

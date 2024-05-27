@@ -26,7 +26,7 @@ permalink: /
 <h3>선거 블로그</h3>
 
 <ul>
-  {% for post in site.blog | sort: 'last_updated' %}
+  {% for post in site.blog | sort: 'date' %}
     <li>
       <a href="{{ post.url }}">{{ post.title }}</a>
     </li>

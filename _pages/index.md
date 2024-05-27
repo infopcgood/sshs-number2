@@ -7,7 +7,7 @@ permalink: /
 
 # 2️⃣ 기호 2번 공약 안내
 
-<p style="padding: 3em 1em; background: #f5d8bc; border-radius: 4px;">
+<p style="padding: 1em 1em; background: #f5d8bc; border-radius: 4px;">
   공약을 제안하고 싶으시다고요? <span style="font-weight: bold"><a href="https://bit.ly/number2-we-listen">여기에서</a></span> 직접 말씀해 주세요!
 </p>
 

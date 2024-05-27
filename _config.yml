@@ -1,4 +1,4 @@
-title:               My digital garden
+title:               기호 2번 공약 소개
 include:             ['_pages']
 exclude:             ['_includes/notes_graph.json']
 # You may need to change the base URL depending on your deploy configuration.
@@ -33,10 +33,8 @@ collections:
     permalink: /:slug
   blog:
     output: true
-    permalink: /_blog/:slug
   info:
     output: true
-    permalink: /_info/:slug
   posts:
     output: true
 

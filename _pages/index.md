@@ -18,7 +18,7 @@ permalink: /
 <ul>
   {% for post in site.info %}
     <li>
-      [{{ post.title }}]({% post_url {{ post.title }} %})
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>
@@ -28,7 +28,7 @@ permalink: /
 <ul>
   {% for post in site.blog reversed %}
     <li>
-      [{{ post.title }}]({% post_url {{ post.title }} %})
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
     </li>
   {% endfor %}
 </ul>

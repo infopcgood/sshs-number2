@@ -13,7 +13,7 @@ permalink: /
   공약을 제안하고 싶으시다고요? <span style="font-weight: bold"><a href="https://bit.ly/number2-we-listen">여기에서</a></span> 직접 말씀해 주세요! <span style="font-weight: bold"><a href="https://open.kakao.com/o/sMnhF0tg">카카오톡 오픈채팅방</a></span>도 운영하고 있습니다!
 </p>
 
-<h3>공약 소개</h3>
+<h3>공약 소개 (공약을 누르시면 공약 설명으로 이동합니다!)</h3>
 
 <ul>
   {% for post in site.info %}
